@@ -56,9 +56,19 @@ html_theme_options = {
     "search_bar_text": "Search this site...",
     "icon_links": [
         {
+            "name": "EMail",
+            "url": "mailto:markus.boeck02@gmail.com",
+            "icon": "fa fa-envelope",
+        },
+        {
             "name": "GitHub",
             "url": "https://github.com/zero9178/",
             "icon": "fa-brands fa-github",
+        },
+        {
+            "name": "Discord",
+            "url": "https://discordapp.com/users/232218093730922496",
+            "icon": "fa-brands fa-discord",
         }
     ],
 }
