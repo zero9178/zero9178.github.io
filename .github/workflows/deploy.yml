@@ -38,7 +38,7 @@ jobs:
 
     - name: Build Sphinx
       run: |
-        sphinx-autobuild . _build
+        sphinx-build . _build
 
     - if: ${{ github.ref == 'refs/heads/main' }}
       name: Upload artifact

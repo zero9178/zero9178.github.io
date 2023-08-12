@@ -27,7 +27,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv', '.idea', '.githu
 
 # Blog options
 
-blog_baseurl = ""
+blog_baseurl = "https://zero9178.github.io/"
 blog_title = "My blog"
 blog_path = "blog"
 blog_post_pattern = "blog/*"
