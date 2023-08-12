@@ -1,0 +1,7 @@
+ablog>=0.11.0rc2
+docutils
+MyST-Parser
+pydata-sphinx-theme>=0.13.0rc1
+sphinx
+sphinx-autobuild
+sphinx-design
