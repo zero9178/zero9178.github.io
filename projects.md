@@ -1,3 +1,4 @@
+(projects_page)=
 # Projects
 
 This page contains a list of personal projects that I am currently working on or have worked on in the past in order of 
