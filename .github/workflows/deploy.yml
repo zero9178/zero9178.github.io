@@ -4,7 +4,7 @@ on:
   pull_request:
   push:
     branches:
-    - main
+      - main
   workflow_dispatch:
 
 permissions:
@@ -26,27 +26,28 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
 
-    - name: Build Sphinx
-      run: |
-        sphinx-build . _build
+      - name: Build Sphinx
+        run: |
+          sphinx-build . _build
 
-    - if: ${{ github.ref == 'refs/heads/main' }}
-      name: Upload artifact
-      uses: actions/upload-pages-artifact@v2
-      with:
-        path: ${{github.workspace}}/_build
+      - if: ${{ github.ref == 'refs/heads/main' }}
+        name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ${{github.workspace}}/_build
 
-    - if: ${{ github.ref == 'refs/heads/main' }}
-      name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v2
+      - if: ${{ github.ref == 'refs/heads/main' }}
+        name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
