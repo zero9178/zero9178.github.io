@@ -7,7 +7,7 @@ html_theme.sidebar_secondary.remove: true
 ## Recent blog posts
 
 ```{postlist}
-:date: "%Y-%m-%d"
+:date: "%Y.%m.%d"
 :format: "{title} - {date}"
 :excerpts:
 ```

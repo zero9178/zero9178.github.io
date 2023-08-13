@@ -6,3 +6,4 @@ sphinx
 sphinx-autobuild
 sphinx-design
 sphinxext-opengraph
+sphinxcontrib-bibtex

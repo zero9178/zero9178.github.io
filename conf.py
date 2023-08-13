@@ -19,9 +19,12 @@ extensions = [
     "ablog",
     "sphinx_design",
     "sphinxext.opengraph",
+    "sphinxcontrib.bibtex",
 ]
 
 myst_enable_extensions = ['dollarmath']
+
+bibtex_bibfiles = ['refs.bib']
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv', '.idea', '.github']
