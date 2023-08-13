@@ -2,7 +2,7 @@
 html_theme.sidebar_secondary.remove: true
 ---
 
-# Welcome
+# Blog by zero9178
 
 ## Recent blog posts
 
@@ -17,4 +17,5 @@ html_theme.sidebar_secondary.remove: true
 :hidden:
 aboutme
 blog
+projects
 ```

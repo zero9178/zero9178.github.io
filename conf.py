@@ -82,5 +82,5 @@ html_favicon = f"https://www.gravatar.com/avatar/{hashlib.md5(my_email).hexdiges
 html_title = "zero9178"
 html_sidebars = {
     "blog/**": ["ablog/postcard.html", "ablog/recentposts.html", "ablog/archives.html"],
-    "[!blog]**": ["ablog/categories.html", "ablog/tagcloud.html", "ablog/archives.html"],
+    "index": ["ablog/categories.html", "ablog/tagcloud.html", "ablog/archives.html"],
 }
