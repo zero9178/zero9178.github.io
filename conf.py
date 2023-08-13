@@ -89,3 +89,4 @@ html_sidebars = {
 # OGP Options
 
 ogp_site_url = blog_baseurl
+ogp_image = html_logo
