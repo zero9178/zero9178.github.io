@@ -7,7 +7,7 @@ import hashlib
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Personal Website'
+project = 'Personal Website of zero9178'
 copyright = '2023, Markus Böck'
 author = 'Markus Böck'
 
@@ -18,6 +18,7 @@ extensions = [
     "myst_parser",
     "ablog",
     "sphinx_design",
+    "sphinxext.opengraph",
 ]
 
 myst_enable_extensions = ['dollarmath']
@@ -84,3 +85,7 @@ html_sidebars = {
     "blog/**": ["ablog/postcard.html", "ablog/recentposts.html", "ablog/archives.html"],
     "index": ["ablog/categories.html", "ablog/tagcloud.html", "ablog/archives.html"],
 }
+
+# OGP Options
+
+ogp_site_url = blog_baseurl

@@ -5,3 +5,4 @@ pydata-sphinx-theme>=0.13.0rc1
 sphinx
 sphinx-autobuild
 sphinx-design
+sphinxext-opengraph
