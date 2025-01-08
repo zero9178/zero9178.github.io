@@ -2,7 +2,8 @@
 
 Hello!
 
-My name is Markus, zero9178 on the internet, and I am currently a Software Engineering Bachelor student at the Technical
+My name is Markus, zero9178 on the internet, and I am currently a Computer Science Master student at ETH Zurich.
+I was previously a research assistant at the University of Cambridge and before that a Bachelor student at the Technical
 University of Vienna.
 In 2019, I started heavily getting into compilers which has lead to me creating a variety of compiler-related projects.
 Check them out [here](projects_page)!
